@@ -10,9 +10,13 @@
         <div class="text">角标2</div>
       </div>
     </div>
+    <div class="tip">角标</div>
     <div class="card2"></div>
+    <div class="tip">径向渐变 radial-gradient</div>
     <div class="card3"></div>
+    <div class="tip">重复线性渐变 linear-gradient</div>
     <div class="card4"></div>
+    <div class="tip">重复径向渐变 repeat-radial-gradient</div>
   </div>
 </template>
 
@@ -34,6 +38,11 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    .tip {
+      font-size: 20px;
+      color: #646464;
+      margin-bottom: 20px;
+    }
     .card1 {
       position: relative;
       overflow: hidden;
