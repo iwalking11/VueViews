@@ -1,3 +1,7 @@
+/**
+* 角标
+*/
+
 <template>
   <div class="wrap">
     <div class="card1">
@@ -6,6 +10,9 @@
         <div class="text">角标2</div>
       </div>
     </div>
+    <div class="card2"></div>
+    <div class="card3"></div>
+    <div class="card4"></div>
   </div>
 </template>
 
@@ -26,6 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     .card1 {
       position: relative;
       overflow: hidden;
@@ -79,6 +87,22 @@
           text-align: center;
         }
       }
+    }
+    .card2 {
+      width: 400px;
+      height: 200px;
+      background: radial-gradient(#ff726d, #ffb2f8, rgb(30, 144, 255));
+    }
+    .card3 {
+      width: 400px;
+      height: 200px;
+      background: repeating-linear-gradient(to top left,
+      lightpink, lightpink 5px, white 5px, white 10px);
+    }
+    .card4 {
+      width: 400px;
+      height: 200px;
+      background: repeating-radial-gradient(powderblue, powderblue 8px, white 8px, white 16px);
     }
   }
 

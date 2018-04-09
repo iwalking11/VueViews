@@ -2,6 +2,7 @@
   <div class="items">
     <h2>
       <router-link to="/subscript">角标</router-link>
+      <router-link to="/basic-shape">动画多边形</router-link>
     </h2>
   </div>
 </template>
