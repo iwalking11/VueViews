@@ -15,6 +15,6 @@ npm run dev
 npm run build
 
 
-
+```
 ## 角标效果图
-![Alt text](/src/asset/img/radial-gradient.jpg?raw=true "Optional Title")
+![image](https://raw.githubusercontent.com/walking11/VueViews/master/src/assets/img/radial-gradient.jpg)
