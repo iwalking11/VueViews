@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/views/Index.vue'
 import Subscript from '@/views/Subscript.vue'
 import BasicShape from '@/views/BasicShape.vue'
+import BackgroundClip from '@/views/BackgroundClip.vue'
 
 Vue.use(Router)
 
@@ -20,6 +21,10 @@ export default new Router({
       path: '/basic-shape',
       name: 'BasicShape',
       component: BasicShape
+    }, {
+      path: '/background-clip',
+      name: 'BackgroundClip',
+      component: BackgroundClip
     }
   ]
 })

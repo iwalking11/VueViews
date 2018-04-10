@@ -1,9 +1,8 @@
 <template>
   <div class="items">
-    <h2>
-      <router-link to="/subscript">角标</router-link>
-      <router-link to="/basic-shape">动画多边形</router-link>
-    </h2>
+    <router-link class="item" to="/subscript">角标</router-link>
+    <router-link class="item" to="/basic-shape">动画多边形</router-link>
+    <router-link class="item" to="/background-clip">background-clip</router-link>
   </div>
 </template>
 
@@ -19,9 +18,13 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style rel="stylesheet/less" lang="less" scoped>
   .items {
-    text-align: center;
-    color: #c2d7a3;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      margin: 10px;
+    }
   }
 </style>
