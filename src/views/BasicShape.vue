@@ -86,17 +86,17 @@ offset-path和clip-path以及shape-outside相反，只能使用path()函数绘�
       padding: 20px;
       margin: 100px auto;
       border-radius: 50%;
-      background: #fb3;
+      background: #f5ffb7;
       @keyframes spin {
         from {
-          transform: rotate(0turn) translateY(-150px) translateY(50%) rotate(1turn);
+          transform:  rotate(360deg) translateY(-150px) translateY(50%) ;
         }
         to {
-          transform: rotate(1turn) translateY(-150px) translateY(50%) rotate(0turn);
+          transform: rotate(0turn) translateY(-150px) translateY(50%) ;
         }
       }
       .avatar {
-        animation: spin 3s infinite linear;
+        animation: spin 10s infinite linear;
       }
       .avatar {
         display: block;

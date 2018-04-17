@@ -4,6 +4,7 @@ import Index from '@/views/Index.vue'
 import Subscript from '@/views/Subscript.vue'
 import BasicShape from '@/views/BasicShape.vue'
 import BackgroundClip from '@/views/BackgroundClip.vue'
+import Animation from '@/views/Animation.vue'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
       path: '/background-clip',
       name: 'BackgroundClip',
       component: BackgroundClip
+    }, {
+      path: '/animation',
+      name: 'Animation',
+      component: Animation
     }
   ]
 })

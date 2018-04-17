@@ -3,6 +3,7 @@
     <router-link class="item" to="/subscript">角标</router-link>
     <router-link class="item" to="/basic-shape">动画多边形</router-link>
     <router-link class="item" to="/background-clip">background-clip</router-link>
+    <router-link class="item" to="/animation">特效</router-link>
   </div>
 </template>
 
