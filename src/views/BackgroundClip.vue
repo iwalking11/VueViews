@@ -8,13 +8,13 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        msg: 'Hello world!'
-      }
+export default {
+  data () {
+    return {
+      msg: 'Hello world!'
     }
   }
+}
 </script>
 
 <style rel="stylesheet/less" lang="less" scoped>

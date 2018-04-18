@@ -26,13 +26,13 @@ offset-path和clip-path以及shape-outside相反，只能使用path()函数绘�
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        msg: 'Hello world!'
-      }
+export default {
+  data () {
+    return {
+      msg: 'Hello world!'
     }
   }
+}
 </script>
 
 <style rel="stylesheet/less" lang="less" scoped>
