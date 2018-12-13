@@ -1,5 +1,5 @@
 /**
-* https://github.com/walking11/front-end-knowledge/issues/4 【关于层叠上下文】
+* https://github.com/walking11/front-end-knowledge/issues/6 【关于层叠上下文】
 * Created by iwalk on 2018/12/13.
 */
 <template>
