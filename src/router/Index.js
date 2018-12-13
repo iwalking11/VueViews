@@ -6,6 +6,7 @@ import BasicShape from '@/views/BasicShape.vue'
 import BackgroundClip from '@/views/BackgroundClip.vue'
 import Animation from '@/views/Animation.vue'
 import Overflow from '@/views/Overflow.vue'
+import ZIndex from '@/views/ZIndex.vue'
 
 Vue.use(Router)
 
@@ -35,6 +36,10 @@ export default new Router({
       path: '/overflow',
       name: 'Overflow',
       component: Overflow
+    }, {
+      path: '/z-index',
+      name: 'ZIndex',
+      component: ZIndex
     }
   ]
 })

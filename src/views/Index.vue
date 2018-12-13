@@ -1,6 +1,6 @@
 <template>
   <div class="items">
-    <div class="item"  v-for="item in items">
+    <div class="item" v-for="item in items">
       <router-link v-bind:to='item.url'>{{item.name}}</router-link>
     </div>
   </div>
@@ -18,6 +18,7 @@ export default {
         {url: '/background-clip', name: 'background-clip' },
         {url: '/animation', name: '特效' },
         {url: '/overflow', name: 'overflow' },
+        {url: '/z-index', name: 'z-index' },
       ]
     }
   }
