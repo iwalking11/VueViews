@@ -17,6 +17,7 @@ export default {
         {url: '/basic-shape', name: '动画多边形' },
         {url: '/background-clip', name: 'background-clip' },
         {url: '/animation', name: '特效' },
+        {url: '/overflow', name: 'overflow' },
       ]
     }
   }
@@ -31,7 +32,7 @@ export default {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: 100px 100px;
-    grid-template-rows: 50px 50px;
+    /*grid-template-rows: 50px 50px;*/
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     justify-items: stretch;
