@@ -19,6 +19,7 @@ export default {
         {url: '/animation', name: '特效' },
         {url: '/overflow', name: 'overflow' },
         {url: '/z-index', name: 'z-index' },
+        {url: '/writing-mode-center-box', name: 'writing-mode水平垂直居中' },
       ]
     }
   }

@@ -9,7 +9,7 @@
     <div class="item item3">z-index < 0</div>
     <div class="item item4">块级水平盒子</div>
     <div class="item item5">float浮动盒子</div>
-    <span class="item item6" style="">inline、inline-block水平盒子</span>
+    <span class="item item6">inline、inline-block水平盒子</span>
     <div class="item item7">z-index > 0</div>
   </div>
 </template>
@@ -52,6 +52,7 @@
       top: 120px;
       left: 80px;
       z-index: 0;
+      writing-mode: vertical-lr; //文本垂直方向展示，自左向右
     }
     &.item2 {
       background: #42b983;
@@ -90,6 +91,7 @@
       top: -60px;
       left: 120px;
       z-index: 1;
+      writing-mode: vertical-rl; //文本垂直方向展示，自右向左
     }
   }
 </style>
