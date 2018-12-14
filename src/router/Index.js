@@ -8,6 +8,7 @@ import Animation from '@/views/Animation.vue'
 import Overflow from '@/views/Overflow.vue'
 import ZIndex from '@/views/ZIndex.vue'
 import WritingModeCenterBox from '@/views/WritingModeCenterBox.vue'
+import WordWrap from '@/views/WordWrap.vue'
 
 Vue.use(Router)
 
@@ -45,6 +46,10 @@ export default new Router({
       path: '/writing-mode-center-box',
       name: 'WritingModeCenterBox',
       component: WritingModeCenterBox
+  }, {
+      path: '/word-wrap',
+      name: 'WordWrap',
+      component: WordWrap
     }
   ]
 })

@@ -20,6 +20,7 @@ export default {
         {url: '/overflow', name: 'overflow' },
         {url: '/z-index', name: 'z-index' },
         {url: '/writing-mode-center-box', name: 'writing-mode水平垂直居中' },
+        {url: '/word-wrap', name: '行——换与不换' },
       ]
     }
   }
