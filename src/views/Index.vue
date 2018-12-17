@@ -21,6 +21,7 @@ export default {
         {url: '/z-index', name: 'z-index' },
         {url: '/writing-mode-center-box', name: 'writing-mode水平垂直居中' },
         {url: '/word-wrap', name: '行——换与不换' },
+        {url: '/containing-block', name: 'ContainingBlock' },
       ]
     }
   }
@@ -31,10 +32,10 @@ export default {
 <style rel="stylesheet/less" lang="less" scoped>
   .items {
     background: #ecffe7;
-    height: 200px;
     display: grid;
+    padding: 20px;
     flex-wrap: wrap;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 1fr 1fr;
     /*grid-template-rows: 50px 50px;*/
     grid-column-gap: 10px;
     grid-row-gap: 15px;
