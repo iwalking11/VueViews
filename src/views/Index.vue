@@ -22,6 +22,7 @@ export default {
         {url: '/writing-mode-center-box', name: 'writing-mode水平垂直居中' },
         {url: '/word-wrap', name: '行——换与不换' },
         {url: '/containing-block', name: 'ContainingBlock' },
+        {url: '/content-counter', name: 'ContentCounter' },
       ]
     }
   }

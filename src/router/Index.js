@@ -10,6 +10,7 @@ import ZIndex from '@/views/ZIndex.vue'
 import WritingModeCenterBox from '@/views/WritingModeCenterBox.vue'
 import WordWrap from '@/views/WordWrap.vue'
 import ContainingBlock from '@/views/ContainingBlock.vue'
+import ContentCounter from '@/views/ContentCounter.vue'
 
 Vue.use(Router)
 
@@ -47,7 +48,7 @@ export default new Router({
       path: '/writing-mode-center-box',
       name: 'WritingModeCenterBox',
       component: WritingModeCenterBox
-  }, {
+    }, {
       path: '/word-wrap',
       name: 'WordWrap',
       component: WordWrap
@@ -55,6 +56,10 @@ export default new Router({
       path: '/containing-block',
       name: 'ContainingBlock',
       component: ContainingBlock
+    }, {
+      path: '/content-counter',
+      name: 'ContentCounter',
+      component: ContentCounter
     }
   ]
 })
