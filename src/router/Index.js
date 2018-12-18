@@ -11,6 +11,7 @@ import WritingModeCenterBox from '@/views/WritingModeCenterBox.vue'
 import WordWrap from '@/views/WordWrap.vue'
 import ContainingBlock from '@/views/ContainingBlock.vue'
 import ContentCounter from '@/views/ContentCounter.vue'
+import Viser from '@/views/Viser.vue'
 
 Vue.use(Router)
 
@@ -60,6 +61,10 @@ export default new Router({
       path: '/content-counter',
       name: 'ContentCounter',
       component: ContentCounter
+    }, {
+      path: '/viser',
+      name: 'Viser',
+      component: Viser
     }
   ]
 })

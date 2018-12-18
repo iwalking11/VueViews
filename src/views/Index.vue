@@ -23,6 +23,7 @@ export default {
         {url: '/word-wrap', name: '行——换与不换' },
         {url: '/containing-block', name: 'ContainingBlock' },
         {url: '/content-counter', name: 'ContentCounter' },
+        {url: '/viser', name: 'viser-vue图标框架' },
       ]
     }
   }
