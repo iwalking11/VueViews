@@ -69,14 +69,13 @@
     margin: 30px auto;
     height: auto;
     overflow: hidden;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
     counter-reset: main;
-
     color: #646452;
     text-align: left;
     .first {
       counter-reset: submain;
-      &::before {
+      &:before {
         font-size: 18px;
         font-weight: bold;
         counter-increment: main;
@@ -85,8 +84,7 @@
         content: "类别 " counter(main) ". ";
       }
       .second {
-
-        &::before {
+        &:before {
           padding: 5px 16px;
           font-family: arial black;
           display: inline-block;
@@ -95,7 +93,6 @@
         }
       }
     }
-
   }
 
   li {
